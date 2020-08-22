@@ -2,9 +2,6 @@
 
 using namespace std;
 
-// Galang, Mark Jason T.
-// 201910574
-
 void remove_duplicates(vector<int> &v) {
 	auto end = v.end();
 	for(auto i = v.begin(); i != end; ++i) {
